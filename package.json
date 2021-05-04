@@ -2,7 +2,7 @@
   "name": "convert-values-properties",
   "version": "1.0.2",
   "description": "Library that converts the values of the properties of an arbitrary object to another language/unit. The conversion rules are configurable.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
