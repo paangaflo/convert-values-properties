@@ -1,6 +1,6 @@
 {
   "name": "convert-values-properties",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library that converts the values of the properties of an arbitrary object to another language/unit. The conversion rules are configurable.",
   "main": "lib/index.js",
   "scripts": {
