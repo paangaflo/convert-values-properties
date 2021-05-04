@@ -1,4 +1,5 @@
 import * as _ from 'lodash';
+/* tslint:disable no-var-requires */
 const translate = require('translate');
 
 interface Operation {
@@ -24,7 +25,7 @@ const setNestedValue = (obj: object, path: string, value: any) => {
 };
 
 const getRule = (rules: Rule[], value: any) => {
-  return rules.find(function (rule) {
+  return rules.find(function isType(rule) {
     return rule.type === typeof value;
   });
 };
