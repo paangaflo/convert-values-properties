@@ -1,0 +1,32 @@
+{
+  "name": "convert-values-properties",
+  "version": "1.0.0",
+  "description": "Library that converts the values of the properties of an arbitrary object to another language/unit. The conversion rules are configurable.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paangaflo/convert-values-properties.git"
+  },
+  "keywords": [
+    "converte",
+    "object",
+    "properties"
+  ],
+  "author": "paangaflo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paangaflo/convert-values-properties/issues"
+  },
+  "homepage": "https://github.com/paangaflo/convert-values-properties#readme",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "translate": "^1.2.3",
+    "typescript-require": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168"
+  }
+}
